@@ -13,7 +13,8 @@ p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
 time.sleep(10)
 #持续监测运行并检测是否完成或错误
 while 1:
-    if p.returncode != 0:
+    if p.poll() is not None:
+        print("Proxypool Error Or Died,return code:"+ str(p.returncode))
         try:
           p.kill()
           p.terminate()
