@@ -1,0 +1,28 @@
+name: proxypoolget
+on:
+  schedule:
+    - cron:  '0 0/2 * * *'
+  workflow_dispatch:
+jobs:
+    build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout actions
+      uses: actions/checkout@v1
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9
+    - name: Get Sub
+      run: |
+        pip install requests
+        python main.py
+    - name: commit
+      run: |
+        git config --global user.email github_user
+        git config --global user.name github_action
+        git add .
+        git commit -m "update" -a
+    - name: Push changes
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

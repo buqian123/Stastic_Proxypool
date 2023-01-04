@@ -1,0 +1,60 @@
+
+# 订阅列表
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/RealLaptop/free-v2ray-merge/main/webside.txt
+
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+- type: tgchannel
+  options:
+    channel: asjdxm
+    num: 200
+- type: tgchannel
+  options:
+    channel: dingyue_Center
+    num: 800
+- type: tgchannel
+  options:
+    channel: juzibaipiao
+    num: 500
+- type: tgchannel
+  options:
+    channel: baipiaoi
+    num: 900
+- type: tgchannel
+  options:
+    channel: helloworld_1024
+    num: 900
+- type: tgchannel
+  options:
+    channel: ZDYZ2
+    num: 500
+- type: tgchannel
+  options:
+    channel: yangmaoxiaofendui
+    num: 300
+- type: tgchannel
+  options:
+    channel: app_jiedian
+    num: 500
+- type: tgchannel
+  options:
+    channel: aifenxiang2020
+    num: 500
+- type: tgchannel
+  options:
+    channel: Zjzty2451
+    num: 900
+- type: tgchannel
+  options:
+    channel: airproxies
+    num: 900
+- type: tgchannel
+  options:
+    channel: kxswa
+    num: 900
