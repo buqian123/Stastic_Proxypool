@@ -1,28 +1,44 @@
-name: proxypoolget
-on:
-  schedule:
-    - cron:  '0 0/2 * * *'
+name: Get Proxies
+
+# 触发条件
+ on:
   workflow_dispatch:
+
+  schedule:
+    # - cron: '*/5 * * * *'
+    # 表达式生成  https://crontab.guru/
+    - cron: '0 0-23/3 * * *'
+
 jobs:
-    build:
+  main:
+    name: Merge & speedtest
     runs-on: ubuntu-latest
     steps:
-    - name: checkout actions
-      uses: actions/checkout@v1
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v1
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
       with:
-        python-version: 3.9
-    - name: Get Sub
+        python-version: '3.x'
+        cache: 'pip'
+    - uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Set timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: Run Main
       run: |
         pip install requests
         python main.py
-    - name: commit
+    - name: Commit change
       run: |
-        git config --global user.email github_user
-        git config --global user.name github_action
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
         git add .
-        git commit -m "update" -a
-    - name: Push changes
+        git commit -m "$(date '+% Y-% m-% d % H:% M:% S') 合并节点"
+    - name: Push
+      uses:  ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
