@@ -1,6 +1,7 @@
 import subprocess
 import os
 import requests
+impoet time
 #清理并运行Proxypool
 os.remove("./sub.yaml")
 p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
@@ -15,6 +16,7 @@ while 1:
     sub = sub.content.decode("utf-8")
     if "NULL" not in sub:
         break
+    time.sleep(5)
 #获取订阅
 proxies = requests.get("http://localhost:8080/clash/proxies").content.decode("utf-8")
 #写入
