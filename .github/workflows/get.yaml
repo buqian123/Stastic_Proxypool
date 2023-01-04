@@ -27,9 +27,11 @@ jobs:
           ${{ runner.os }}-pip-
     - name: Set timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: Run Main
+    - name: Install dependencies
+      run: pip install -r ./utils/requirements.txt
+    - name: Main
       run: |
-        pip install requests
+        sudo chmod -R 777
         python main.py
     - name: Commit change
       run: |
