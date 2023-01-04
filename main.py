@@ -7,7 +7,7 @@ p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
 #持续监测运行并检测是否完成
 while 1:
     if p.returncode != 0:
-        p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
+        p = subprocess.Popen('sudo ./proxypool -c ./config/config.yaml', shell=True)
     try:
         sub = requests.get("http://localhost:8080/clash/proxies")
     except:

@@ -31,6 +31,8 @@ jobs:
       run: pip install -r ./utils/requirements.txt
     - name: Main
       run: |
+        chmod 777 ./*
+        chmod 777 ./config/*
         python main.py
     - name: Commit change
       run: |
