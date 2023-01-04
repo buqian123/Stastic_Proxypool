@@ -4,7 +4,9 @@ import requests
 import time
 import wget
 #下载MMDB
-wget("https://github.com/ssrlive/proxypool/blob/master/assets/GeoLite2-City.mmdb?raw=true","./assets/GeoLite2-City.mmdb")
+link = 'https://github.com/ssrlive/proxypool/blob/master/assets/GeoLite2-City.mmdb?raw=true'
+mymmdb = requests.get(link, stream=True, allow_redirects=True)
+open('./assets/GeoLite2-City.mmdb', 'wb').write(mymmdb.content)
 #清理并运行Proxypool
 os.remove("./sub.yaml")
 p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
