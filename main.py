@@ -2,7 +2,7 @@ import subprocess
 import os
 import requests
 #清理并运行Proxypool
-os.remove("./sub.yaml")
+try: os.remove("./sub.yaml")
 p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
 #持续监测运行并检测是否完成
 while 1:
