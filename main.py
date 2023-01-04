@@ -10,7 +10,8 @@ open('./assets/GeoLite2-City.mmdb', 'wb').write(mymmdb.content)
 #清理并运行Proxypool
 os.remove("./sub.yaml")
 p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
-#持续监测运行并检测是否完成
+time.sleep(10)
+#持续监测运行并检测是否完成或错误
 while 1:
     if p.returncode != 0:
         try:
