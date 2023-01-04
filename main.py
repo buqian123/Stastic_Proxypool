@@ -31,7 +31,7 @@ while 1:
 #获取订阅
 proxies = requests.get("http://localhost:8080/clash/proxies").content.decode("utf-8")
 #写入
-f = open("config.yaml", "x")
+f = open("sub.yaml", "x")
 f.write(proxies)
 f.close()
 #清理

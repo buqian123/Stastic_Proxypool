@@ -1,10 +1,20 @@
-
+#订阅链接
+- type: clash
+  options:
+    url:  https://free.jingfu.cf/clash/proxies
+- type: clash
+  options:
+    url:  https://proxy.huwo.club/clash.yaml
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 # 订阅列表
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/RealLaptop/free-v2ray-merge/main/webside.txt
-
-
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
 # tg频道抓取
 - type: tgchannel
   options:
@@ -58,3 +68,30 @@
   options:
     channel: kxswa
     num: 900
+- type: tgchannel
+  options:
+    channel: tizi1131
+    num: 500
+- type: tgchannel
+  options:
+    channel: heinuhome
+    num: 200
+#网页抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-48-1.html
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzz
+  options:
+    url: https://freefq.com/free-ss/
+- type: webfuzz
+  options:
+    url: https://lncn.org/
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
