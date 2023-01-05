@@ -10,19 +10,19 @@
 
 <!--格式问题--!>
 
-<br>**Base64**
-<br>```https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/long```
+<br>Base64
+<br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/long
 
-<br>**小火箭**
-<br>```https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/https```
+<br>小火箭
+<br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/https
 
-<br>**Clash**
-<br>```https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/Clash.yaml```
+<br>Clash:
+<br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/Clash.yaml
 
-<br>**Quanx**
-<br>```https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/Quanx.conf```
+<br>Quanx:
+<br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/Quanx.conf
 
-**不同订阅之间的区别**
+<br>**不同订阅之间的区别**
 <br>**Base64** 订阅可在大多数翻墙软件中使用 
 <br>**小火箭** 订阅可在Shadowrocket中使用 
 <br>**Clash** 订阅可在Clash系列软件中使用 
