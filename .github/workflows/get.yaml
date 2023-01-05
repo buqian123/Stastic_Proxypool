@@ -94,7 +94,8 @@ jobs:
          rm ./utils/subconverter/base64 ./utils/subconverter/output.yaml  #delete ./utils/subconverter/base64 ./utils/subconverter/output.yaml
     - name: Commit change-openit
       run: |
-        rm -rf ./utils/pool/City.mmdb
+        rm -rf ./utils/pool/Country.mmdb
+        rm -rf ./utils/clashcheck/Country.mmdb
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin main
