@@ -1,4 +1,4 @@
-# Openit复活+魔改版
+# Static_Proxypool-Openit复活+魔改版
 融合proxypool和openit
 -
 仅供学习使用
