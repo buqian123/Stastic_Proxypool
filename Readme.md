@@ -1,5 +1,6 @@
 # Static_Proxypool-Openit复活+魔改版
 融合proxypool和openit
+source: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/config/source.yaml
 -
 仅供学习使用
 使用者使用本项目进行的一切
@@ -34,6 +35,7 @@
 - 原Openit作者
 - https://github.com/codingbox/Free-Node-Merge
 - TG各机场链接分享者
+- 各个订阅分享网站
 ## Time in Stars
 <!--替换成自己的仓库和名字就可以用了-->
 [![Stargazers over time](https://starchart.cc/RealLaptop/Stastic_Proxypool.svg)](https://starchart.cc/RealLaptop/Stastic_Proxypool)
