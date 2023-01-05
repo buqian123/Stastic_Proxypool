@@ -35,6 +35,7 @@ jobs:
     - name: Main-proxypool #Proxypool爬取并初步筛选
       run: |
         sudo chmod -R 777 *
+        sudo chmod 777 ./.github/*.sh
         python main.py
     - name: Commit change-proxypool
       run: |
