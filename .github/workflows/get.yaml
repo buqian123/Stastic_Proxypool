@@ -32,12 +32,12 @@ jobs:
          pip install -r ./utils/requirements.txt
     - name: Set timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: Main #Proxypool爬取并初步筛选
+    - name: Main-proxypool #Proxypool爬取并初步筛选
       run: |
         chmod 777 ./*
         chmod 777 ./config/*
         python main.py
-    - name: Commit change-openit
+    - name: Commit change-proxypool
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
@@ -94,6 +94,7 @@ jobs:
          rm ./utils/subconverter/base64 ./utils/subconverter/output.yaml  #delete ./utils/subconverter/base64 ./utils/subconverter/output.yaml
     - name: Commit change-openit
       run: |
+        rm -rf ./utils/pool/City.mmdb
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin main

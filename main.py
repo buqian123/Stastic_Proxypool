@@ -6,6 +6,10 @@ import time
 link = 'https://github.com/ssrlive/proxypool/blob/master/assets/GeoLite2-City.mmdb?raw=true'
 mymmdb = requests.get(link, stream=True, allow_redirects=True)
 open('./assets/GeoLite2-City.mmdb', 'wb').write(mymmdb.content)
+#下载MMDB
+link = 'https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb'
+mymmdb = requests.get(link, stream=True, allow_redirects=True)
+open('./utils/pool/City.mmdb', 'wb').write(mymmdb.content)
 #下载geoip-city.dat
 link = 'https://github.com/LITTLESITE/openit/blob/main/utils/rm/node_modules/geoip-lite/data/geoip-city.dat?raw=true'
 mymmdb = requests.get(link, stream=True, allow_redirects=True)
