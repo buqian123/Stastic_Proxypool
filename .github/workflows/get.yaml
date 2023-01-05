@@ -34,8 +34,7 @@ jobs:
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: Main-proxypool #Proxypool爬取并初步筛选
       run: |
-        chmod 777 ./*
-        chmod 777 ./config/*
+        sudo chmod -R 777
         python main.py
     - name: Commit change-proxypool
       run: |
