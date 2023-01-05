@@ -2,11 +2,14 @@ import subprocess
 import os
 import requests
 import time
-import wget
 #下载MMDB
 link = 'https://github.com/ssrlive/proxypool/blob/master/assets/GeoLite2-City.mmdb?raw=true'
 mymmdb = requests.get(link, stream=True, allow_redirects=True)
 open('./assets/GeoLite2-City.mmdb', 'wb').write(mymmdb.content)
+#下载geoip-city.dat
+link = 'https://github.com/LITTLESITE/openit/blob/main/utils/rm/node_modules/geoip-lite/data/geoip-city.dat?raw=true'
+mymmdb = requests.get(link, stream=True, allow_redirects=True)
+open('./utils/rm/node_modules/geoip-lite/data/geoip-city.dat', 'wb').write(mymmdb.content)
 #清理并运行Proxypool
 os.remove("./sub.yaml")
 p = subprocess.Popen('./proxypool -c ./config/config.yaml', shell=True)
@@ -40,8 +43,7 @@ try:
   p.terminate()
 except: print("Kill Error")
 os.remove("./assets/GeoLite2-City.mmdb")
-
-
+os.remove("./utils/rm/node_modules/geoip-lite/data/geoip-city.dat")
 
 
 

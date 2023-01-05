@@ -5,7 +5,7 @@
 
 # proxypool远程服务器的地址，空白为http://127.0.0.1:8080
 server_url:
-  - https://jdc666.littlesite.ml/clash/proxies
+  - https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/sub.yaml
 
 # 对于您的本地服务器
 request: http   # http / https

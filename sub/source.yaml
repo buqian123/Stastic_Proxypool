@@ -6,5 +6,5 @@
 # clash格式订阅链接
 - type: clash
   options:
-    url: https://jdc666.littlesite.ml/clash/proxies
+    url: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/sub.yaml
 
