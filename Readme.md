@@ -1,10 +1,15 @@
 # Static_Proxypool-Openit复活+魔改版
 融合proxypool和openit
+
+<!--格式问题--!>
 source: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/config/source.yaml
+
+
 -
 仅供学习使用
 使用者使用本项目进行的一切
 本项目都不为其负责
+
 -
 **Base64**
 ```https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/long```
