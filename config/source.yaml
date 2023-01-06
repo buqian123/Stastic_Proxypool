@@ -12,6 +12,9 @@
 - type: clash
   options:
     url:  https://tagsub.cf/choujiang/dotun/fb71b356.yml
+- type: clash
+  options:
+    url:  https://update.glados-config.com/clash/157164/bd3ec8c/117845/glados-android.yaml
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
