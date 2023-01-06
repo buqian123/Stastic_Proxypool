@@ -1,13 +1,44 @@
-#订阅链接
+#回环
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/long
 - type: clash
   options:
-    url:  https://free.jingfu.cf/clash/proxies
+    url: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/sub.yaml
+#订阅链接
 - type: clash
   options:
     url:  https://proxy.huwo.club/clash.yaml
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/allnode.txt
+- type: subscribe
+  options:
+    url: https://freefq.neocities.org/free.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/bingoYB/node_processing/main/dist/all.yaml
+- type: subscribe
+  options:
+    url: https://sub.nicevpn.top/long
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
 # 订阅列表
 - type: webfuzzsub
   options:
@@ -91,7 +122,7 @@
     url: https://freefq.com/free-ss/
 - type: webfuzz
   options:
-    url: https://lncn.org/
+    url: https://github.com/Fukki-Z/nodefree
 - type: webfuzz
   options:
     url: https://zfjvpn.gitbook.io/123/
