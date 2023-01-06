@@ -9,6 +9,9 @@
 - type: clash
   options:
     url:  https://proxy.huwo.club/clash.yaml
+- type: clash
+  options:
+    url:  https://tagsub.cf/choujiang/dotun/fb71b356.yml
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
