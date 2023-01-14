@@ -119,6 +119,10 @@
   options:
     channel: heinuhome
     num: 200
+- type: tgchannel
+  options:
+    channel: masco899
+    num: 900
 #网页抓取
 - type: webfuzz
   options:
