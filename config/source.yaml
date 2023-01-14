@@ -9,12 +9,6 @@
 - type: clash
   options:
     url:  https://proxy.huwo.club/clash.yaml
-- type: clash
-  options:
-    url:  https://tagsub.cf/choujiang/dotun/fb71b356.yml
-- type: clash
-  options:
-    url:  https://update.glados-config.com/clash/157164/bd3ec8c/117845/glados-android.yaml
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
@@ -49,9 +43,6 @@
   options:
     url: https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
 # 订阅列表
-- type: webfuzzsub
-  options:
-    url: https://raw.githubusercontent.com/RealLaptop/free-v2ray-merge/main/webside.txt
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
@@ -129,13 +120,19 @@
     url: https://merlinblog.xyz/wiki/freess.html
 - type: web-fanqiangdang
   options:
-    url: https://fanqiangdang.com/forum-48-1.html
-- type: webfuzz
+    url: https://v2ray.fanqiangdang.com
+- type: web-fanqiangdang
   options:
-    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
-- type: webfuzz
+    url: https://shadowsocksr.fanqiangdang.com
+- type: web-fanqiangdang
   options:
-    url: https://freefq.com/free-ss/
+    url: https://shadowsocks.fanqiangdang.com
+- type: web-fanqiangdang
+  options:
+    url: https://sub.fanqiangdang.com
+- type: web-fanqiangdang
+  options:
+    url: https://huiguo.fanqiangdang.com
 - type: webfuzz
   options:
     url: https://github.com/Fukki-Z/nodefree
