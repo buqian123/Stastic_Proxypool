@@ -42,6 +42,12 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
+- type: clash
+  options:
+    url: https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBZ3N4NFpya1E2Um9jdmVFNHJZXzVXakRkYzA_ZT1GRW1FcmE
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/yxzbp/yxzbp_p/main/yxzbp
 # 订阅列表
 - type: webfuzzsub
   options:
@@ -53,19 +59,19 @@
 - type: tgchannel
   options:
     channel: ssrList
-    num: 200
+    num: 900
 - type: tgchannel
   options:
     channel: asjdxm
-    num: 200
+    num: 900
 - type: tgchannel
   options:
     channel: dingyue_Center
-    num: 800
+    num: 900
 - type: tgchannel
   options:
     channel: juzibaipiao
-    num: 500
+    num: 900
 - type: tgchannel
   options:
     channel: baipiaoi
@@ -77,19 +83,19 @@
 - type: tgchannel
   options:
     channel: ZDYZ2
-    num: 500
+    num: 900
 - type: tgchannel
   options:
     channel: yangmaoxiaofendui
-    num: 300
+    num: 900
 - type: tgchannel
   options:
     channel: app_jiedian
-    num: 500
+    num: 900
 - type: tgchannel
   options:
     channel: aifenxiang2020
-    num: 500
+    num: 900
 - type: tgchannel
   options:
     channel: Zjzty2451
@@ -105,14 +111,18 @@
 - type: tgchannel
   options:
     channel: tizi1131
-    num: 500
+    num: 900
 - type: tgchannel
   options:
     channel: heinuhome
-    num: 200
+    num: 900
 - type: tgchannel
   options:
     channel: masco899
+    num: 900
+- type: tgchannel
+  options:
+    channel: bpzx2
     num: 900
 #网页抓取
 - type: webfuzz
