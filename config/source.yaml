@@ -9,6 +9,12 @@
 - type: clash
   options:
     url:  https://proxy.huwo.club/clash.yaml
+- type: clash
+  options:
+    url:  http://39.106.12.141:8081/clash/proxies?type=all
+- type: clash
+  options:
+    url:   https://free.jingfu.cf/clash/proxies?type=all
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
@@ -149,3 +155,6 @@
 - type: webfuzz
   options:
     url: https://zfjvpn.gitbook.io/123/
+- type: webfuzz
+  options:
+    url: https://github.com/sunshinehome/zidong
