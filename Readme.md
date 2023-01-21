@@ -1,5 +1,5 @@
-# Static_Proxypool-Openit复活+魔改版
-<br>融合proxypool和openit
+# Static_Proxypool-Openit复活版
+<br>节点非常多（一定大于300个）且不保证可用性，建议下载订阅后再自己筛选一遍
 
 <!--格式问题--!>
 <br>source: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/config/source.yaml
