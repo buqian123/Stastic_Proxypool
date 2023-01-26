@@ -21,3 +21,6 @@
 
 <br>Quanx:
 <br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/Quanx.conf
+
+<br>节点池clash源文件
+<br>https://fastly.jsdelivr.net/gh/RealLaptop/Stastic_Proxypool@master/sub.yaml
