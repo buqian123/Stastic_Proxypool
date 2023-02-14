@@ -5,6 +5,51 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/RealLaptop/Stastic_Proxypool/main/sub.yaml
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://proxypool.laowang.me/clash/proxies
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://clash.myvm.cc/clash/proxies
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://openit2.littlesite.ml/sub.yaml
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://openit.littlesite.ml/sub.yaml
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.fastgit.org/freefq/free/master/v2
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://clash.myvm.cc/clash/proxies
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://blueseago.tk:8443/clash/proxies
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://pc.adlionvm.tk/clash/proxies
+
 #订阅链接
 - type: clash
   options:
