@@ -5,6 +5,7 @@ port: 8080                # default 12580
 # source list file
 source-files:
   # use local file
+  - https://raw.githubusercontent.com/lee-alone/domain/main/source.yaml
   - source.yaml
   # use web file
   # - https://example.com/config/source.yaml
