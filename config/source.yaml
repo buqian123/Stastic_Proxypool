@@ -692,3 +692,50 @@
 - type: webfuzz
   options:
     url: https://telegra.ph/%E9%86%89%E8%8A%B1%E4%BA%91%E6%9C%80%E6%96%B0%E7%9A%84%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5-01-18
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2
+          
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
+ 
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/tr
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/ss
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/Jason6111/TopFreeProxies/master/Eternity.yaml
+- type: subscribe
+  options:
+    url: 	https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+- type: subscribe
+  options:
+    url: 	https://raw.githubusercontent.com/kxswa/k/k/base64
+- type: subscribe
+  options:
+    url: 	https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub
+
+- type: subscribe
+  options:
+    url: 	https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+
+          
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml 
+
+- type: clash 
+  options:
+     url: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+          
+- type: clash 
+  options:
+     url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+
+          
