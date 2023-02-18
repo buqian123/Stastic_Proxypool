@@ -1,3 +1,77 @@
+- type: subscribe
+  options:
+    url: https://raw.fastgit.org/freefq/free/master/v2
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
+
+- type: webfuzz
+  options:
+    url: https://github.com/mksshare/mksshare.github.io/blob/master/README.md
+
+- type: webfuzz
+  options:
+    url: https://github.com/abshare/abshare.github.io/blob/master/README.md
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
+
+- type: webfuzzsub
+  options:
+    url: https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/blob/master/README.md
+
+- type: clash
+  options:
+    url: https://nodefree.org/dy/2023/02/20230218.yaml 
+- type: clash
+  options:
+    url: https://clashnode.com/wp-content/uploads/2023/02/20230218.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0218clash.yml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml 
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml
+- type: clash
+  options:
+    url: https://tt.vg/freeclash
+- type: clash
+  options:
+    url: https://kxswa.tk/clash
+
+
+
+- type: clash
+  options:
+    url: https://tt.vg/freeclash
+
+
+
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml
+
+
+
 #CLASH
 - type: clash
   options:
@@ -950,5 +1024,4 @@
   options:
     channel: fenxbaip1024
     num: 200
-
 
