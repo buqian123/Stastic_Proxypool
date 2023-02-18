@@ -56,6 +56,9 @@
 - type: clash
   options:
     url: https://kxswa.tk/clash
+- type: clash
+  options:
+    url: https://nodefree.org/dy/202211/20221127.yaml
 
 
 
